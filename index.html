@@ -10,22 +10,33 @@
     <title>Adopt-a-pet stats</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
-    <script src="navbar.js"></script> 
   </head>
 
   <body>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <nav id="main-menu">
+      <ul>
+        <li><a href="#index.html">Home</a></li>
+        <li><a href="#data.html">Data Visualization</a></li>
+        <li><a href="#blog.html">Blog posts</a></li>
+        <li><a href="#design.html">Design Section </a></li>
+        <li><a href="https://www.adoptapet.com/">Adopt-a-pet here!</a></li>
+      </ul>
+    </nav>
 
-    <div class="topnav" id="myTopnav">
-      <a href="#home" class="active">Home</a>
-      <a href="#news">News</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-      <button class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </button> 
-        
-      </a>
-    </div>
+    <input type="checkbox" id="hamburger-input" class="burger-shower" />
+    <label id="hamburger-menu" for="hamburger-input">
+      <nav id="sidebar-menu">
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="#index.html">Home</a></li>
+          <li><a href="#data.html">Data Visualization</a></li>
+          <li><a href="#blog.html">Blog posts</a></li>
+          <li><a href="#design.html">Design Section </a></li>
+          <li><a href="https://www.adoptapet.com/">Adopt-a-pet here!</a></li>
+        </ul>
+      </nav>
+    </label>
+
+    <div class="overlay"></div>
   </body>
 </html>
