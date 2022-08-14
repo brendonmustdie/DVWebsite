@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
 
 body {
   padding: 0px;
   margin: 0px;
   font-size: 20px;
   min-height: 200vh;
-  font-family: 'Cabin', Sans-serif;
+  font-family: 'Inter', sans-serif;
+color: black;
 }
 
 .overlay{
@@ -18,7 +19,7 @@ body {
     visibility: hidden;
     transition: opacity .35s, visibility .35s, height .35s;
     overflow: hidden;
-    background: black;
+    background: white;
     z-index: -1;
 }
 
@@ -26,7 +27,7 @@ body {
   display: block;
   height: 100px;
   width: 100%;
-  background: black;
+  background: white;
   margin: 0px;  
   z-index: 9;
 }
@@ -49,7 +50,7 @@ body {
 }
 
 #main-menu a {
-  color: white;
+  color: black;
   font-size: 1.5rem;
   text-decoration: none;
 }
@@ -63,16 +64,16 @@ body {
 }
 
 #hamburger-menu {
-    position: fixed;
+    position: absolute;
     top: 20px;
-    left: 20px;
+    right: 20px;
     width: 50px;
     height: 50px;
     display: none;
     border: none;
     padding: 0px;
     margin: 0px;
-    font-family: 'Cabin', Sans-serif;
+    font-family: 'Inter', sans-serif;
     background: linear-gradient(
       to bottom, 
       black, black 20%, 
@@ -90,14 +91,14 @@ body {
     left: -250px;
     width: 200px;
     height: 100%;
-    background-color: black;
+    background-color: white;
     transition: 0.3s;
     padding: 0px 10px;
     box-sizing: border-box;
 }
 
 #hamburger-menu h3 {
-  color: white;
+  color: black;
   font-size: 2.2rem;
 }
 
@@ -111,7 +112,7 @@ body {
 }
 
 #hamburger-menu a {
-  color: white;
+  color: black;
   font-size: 1.3rem;
   text-decoration: none;
 }
@@ -137,4 +138,24 @@ body {
   #hamburger-menu {
     display: inline;
   }
+}
+
+.center-paw{
+  display: block;
+margin: auto;
+}
+
+.main {
+  height: 1000px;
+  background-image: url(Images/GermanShepardPuppies.-whitejpg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main p {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 1.7rem;
+  width: 80%;
 }

@@ -10,33 +10,60 @@
     <title>Adopt-a-pet stats</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <nav id="main-menu">
-      <ul>
-        <li><a href="#index.html">Home</a></li>
-        <li><a href="#data.html">Data Visualization</a></li>
-        <li><a href="#blog.html">Blog posts</a></li>
-        <li><a href="#design.html">Design Section </a></li>
-        <li><a href="https://www.adoptapet.com/">Adopt-a-pet here!</a></li>
-      </ul>
-    </nav>
+    <header>
+      <img
+        height="100"
+        width="100"
+        src="Images/Paw_Print.svg"
+        alt="The logo image, or a black paw print"
+      />
 
-    <input type="checkbox" id="hamburger-input" class="burger-shower" />
-    <label id="hamburger-menu" for="hamburger-input">
-      <nav id="sidebar-menu">
-        <h3>Menu</h3>
+      <nav id="main-menu">
         <ul>
           <li><a href="#index.html">Home</a></li>
           <li><a href="#data.html">Data Visualization</a></li>
           <li><a href="#blog.html">Blog posts</a></li>
           <li><a href="#design.html">Design Section </a></li>
-          <li><a href="https://www.adoptapet.com/">Adopt-a-pet here!</a></li>
         </ul>
       </nav>
-    </label>
 
-    <div class="overlay"></div>
+      <input type="checkbox" id="hamburger-input" class="burger-shower" />
+      <label id="hamburger-menu" for="hamburger-input">
+        <nav id="sidebar-menu">
+          <ul>
+            <li><a href="#index.html">Home</a></li>
+            <li><a href="#data.html">Data Visualization</a></li>
+            <li><a href="#blog.html">Blog posts</a></li>
+            <li><a href="#design.html">Design Section </a></li>
+          </ul>
+        </nav>
+      </label>
+
+      <div class="overlay"></div>
+    </header>
+
+    <section class="main">
+      <img
+        height="300"
+        width="300"
+        class="center-paw"
+        src="Images/Paw_Print.svg"
+        alt="The logo image, or a black paw print"
+      />
+
+      <p>
+        Each year, approximately 2.7 millions cats and dogs are killed because
+        shelters are too full and there aren't enough adoptive homes.
+      </p>
+    </section>
   </body>
 </html>
