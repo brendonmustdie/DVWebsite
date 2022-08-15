@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Adopt-a-pet statistics" />
+
+    <title>Adopt-a-pet stats</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <img
+        height="100"
+        width="100"
+        src="Images/Paw_Print.svg"
+        alt="The logo image, or a black paw print"
+      />
+
+      <nav id="main-menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="data.html">Data Visualization</a></li>
+          <li><a href="blog.html">Blog posts</a></li>
+          <li><a href="design.html">Design Section </a></li>
+        </ul>
+      </nav>
+
+      <input type="checkbox" id="hamburger-input" class="burger-shower" />
+      <label id="hamburger-menu" for="hamburger-input">
+        <nav id="sidebar-menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="data.html">Data Visualization</a></li>
+            <li><a href="blog.html">Blog posts</a></li>
+            <li><a href="design.html">Design Section </a></li>
+          </ul>
+        </nav>
+      </label>
+
+      <div class="overlay"></div>
+    </header>
+
+    <section class="blog-posts">
+      <div class="row">
+        <div class="leftcolumn">
+          <div class="card">
+            <h2>Design Section</h2>
+            <h5>2022/08</h5>
+            <p class="change">This information was written before making my website. Changes that have been made to the design in production will be written in brown.</p>
+            <p>
+              In previous assignments, I always struggled to implement mobile
+              versions and responsive design, because I never considered that
+              when creative wireframes. So for this assignment, I went ahead and
+              started with mobile versions of the website and then went on to
+              create the desktop versions. <br />
+            </p>
+            <img
+              class="design-sec"
+              src="Images/Screen 1@1x (1).png"
+              alt="Wireframe of the home page of this website"
+            />
+            <p>
+              For data visualization, I've decided to use Adopt-a-pet's API and
+              so my website needs to pull on viewer's heart strings. The home
+              screen's background is of cuddling puppies, with a sad (true)
+              statistic. I used an SVG for the logo so that it wouldn't change
+              in quality if I resized it. I used a hamburger menu because I
+              figured users would recognize it as opening a drop down menu.
+            </p>
+            <img
+              class="design-sec-desk"
+              src="Images/Screen 1@1x (2).png"
+              alt="Wireframe of the home page of this website, for desktop"
+            />
+            <p>The desktop version was a little easier to design. The brown button at the top will take users to the Adopt-a-pet page where they can adopt a pet. Ultimately this site's purpose would be to lead people to that website, and encourage them to adopt a pet. Other than that - the page looks virtually the same.</p>
+            <p class="change"> The home page didn't change much in production. I did opt not to include the adopt-a-pet button (basically because I don't have much time left and I'm prioritizing content)</p>
+            <img 
+            class="design-sec"
+            src="Images/Screen2@1x (1).png" alt="Wireframe for the design section for this website">
+            <p>The design section page was fairly easy to decide on - because there's really no way to get away with a bunch of text that has pictures scattered through it. I kept the same header from the home page, and I'm going to keep it on all the pages.</p>
+            <img 
+            class = "design-sec-desk" src="Images/Screen 2@1x.png" alt="Wireframe of the Design Section for the website, for desktop.">
+            <p>The desktop version of the design section was definitely neater, and in my next iteration I definitely need to work on getting them both as neat as possible.</p>
+            <p class="change">The design section probably changed the most. Again, I waited quite a while to get started and decided to repurpose some code I used for my first iteration of the last website. Overall, I think it was the right choice. It's neater, easier to read - and responsive. </p>
+            <img 
+            class="design-sec-desk"
+            src="Images/Screen 3@1x (2).png" alt="Wireframe of the blog page for this website, for desktop">
+            <p>Again, my blog versions look basically the same. I decided to have buttons that link to the blog posts, with dog and cat pictures (again, to trick people into adopting pets)</p>
+            <p class="change"> The reason I changed the blog page was because I decided there was too big of a disconnect between the animal photos and my blog posts. Again, I used the repurposed code and I still think it's neater. </p>
+            <img 
+            class = "design-sec" 
+            src="Images/Screen 3@1x (1).png" alt="Wireframe of the blog page for this website">
+           <p>My colour palette was fairly easy to come up with - I knew my website would feature lots of dogs and cats, and I picked a standard colour that would be most likely to match any pictures of animals I decided to include. I picked a font that I thought was easy to read but in creating my actual website I will likely change the font to something easier to read and more professional. </p>
+          <p class="change"> The font I used was mostly for professionalism. I also figured that for accessibility it would be best to go for a professional, neat, sans-serif font. </p>
+        </div>
+           
+        </div>
+        <div class="rightcolumn">
+          <div class="card">
+            <h3>My  Posts</h3>
+            <li><aBlog href="blog2.html">UI and UX</a></li>
+            <li><a href="blog.html">Close Reading </a></li>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -234,3 +234,16 @@ body {
 .blog-posts li {
   list-style: none;
 }
+
+.design-sec-desk{
+  width: 80%;
+  align-items: center;
+}
+
+.design-sec {
+  width: 30%;
+}
+
+.change {
+  color: #7C6150;
+}
