@@ -8,12 +8,15 @@ body {
   padding: 0px;
   margin: 0px;
   font-size: 20px;
-  min-height: 200vh;
+  min-height: 130vh;
   font-family: 'Inter', sans-serif;
 color: black;
+ 
 }
 
 .overlay{
+  padding: 0px;
+  margin: 0%;
     position: fixed;
     top: 0;
     left: 0;
@@ -25,6 +28,7 @@ color: black;
     overflow: hidden;
     background: white;
     z-index: -1;
+    
 }
 
 #main-menu {
@@ -148,6 +152,7 @@ color: black;
 .center-paw{
   display: block;
 margin: auto;
+
 }
 
 .main {
@@ -155,6 +160,9 @@ margin: auto;
   background-image: url(../Images/GermanShepardPuppies.-whitejpg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 0%;
+  margin: 0%;
+  
 }
 
 .main p {
@@ -167,7 +175,8 @@ margin: auto;
 
 body {
   font-family: Arial;
-  padding: 20px;
+  padding: 0px;
+  margin: 0%;
   background: #f1f1f1;
 }
 
