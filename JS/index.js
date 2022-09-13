@@ -1,8 +1,8 @@
 const data = [
-    {shelter: 1, dogs: 10}
-    {shelter: 2, dogs: 20}
-    {shelter: 3, dogs: 30}
-];
+    {shelter: 'shelter1', dogs: 30},
+    {shelter: 'shelter2', dogs: 30},
+    {shelter: 'shelter3', dogs: 30}
+]
 
 const width = 800;
 const height = 400;
@@ -22,3 +22,15 @@ const x = d3.scaleBand()
 const y = d3.scaleLinear()
 .domain([0,100])
 .range([height - margin.bottom, margin.top])
+
+svg
+.append('g')
+.attr('fill', 'royalblue')
+.selectAll('rect')
+.data(data.sort((a,b) => d3.descending(a.dogs, b.dogs)))
+.join('rect')
+ .attr('x', (d, i) => x(i))
+ .attr('y', (d) => y(d.score))
+ .attr('height', d => y(0) - y(d.score))
+ .attr('width', x.bandwidth())
+
