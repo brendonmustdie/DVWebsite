@@ -5,6 +5,10 @@
   margin-right: auto;
 }
 
+.my_dataviz{
+  min-height: 130vh;
+}
+
 .footer{
  align-items: center;
  align-content: center;
