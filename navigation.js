@@ -1,9 +1,9 @@
 
 const navigationData = [
-  { title: "Home", link: "../DVWebsite/index.html" },
-  { title: "Data Visualization", link: "../DVWebsite/Pages/data.html" },
-  { title: "Blog posts", link: "../DVWebsite/Blogs/blog.html" },
-  { title: "Design Section", link: "../DVWebsite/Pages/designpage.html" },
+  { title: "Home", link: "../index.html" },
+  { title: "Data Visualization", link: "../Pages/data.html" },
+  { title: "Blog posts", link: "../Blogs/blog.html" },
+  { title: "Design Section", link: "../Pages/designpage.html" },
 ];
 
 const navigations = document.getElementsByClassName("navigation");
