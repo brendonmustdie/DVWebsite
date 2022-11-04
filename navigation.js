@@ -1,15 +1,18 @@
-
-
-console.log(window.location.pathname.split("/"))
-
-const linkStart = window.location.pathname.split("/").length > 2 ? "../DVWebsite" : "../"
-
+// Production nav
 const navigationData = [
-  { title: "Home", link: linkStart +"index.html" },
-  { title: "Data Visualization", link: linkStart +"Pages/data.html" },
-  { title: "Blog posts", link: linkStart +"Blogs/blog.html" },
-  { title: "Design Section", link: linkStart +"Pages/designpage.html" },
+  { title: "Home", link: "https://brendonmustdie.github.io/DVWebsite/index.html" },
+  { title: "Data Visualization", link: "https://brendonmustdie.github.io/DVWebsite/Pages/data.html" },
+  { title: "Blog posts", link: "https://brendonmustdie.github.io/DVWebsite/Blogs/blog.html" },
+  { title: "Design Section", link: "https://brendonmustdie.github.io/DVWebsite/Pages/designpage.html" },
 ];
+
+// Development nav
+// const navigationData = [
+//   { title: "Home", link: "../index.html" },
+//   { title: "Data Visualization", link: "../Pages/data.html" },
+//   { title: "Blog posts", link: "../Blogs/blog.html" },
+//   { title: "Design Section", link: "../Pages/designpage.html" },
+// ];
 
 const navigations = document.getElementsByClassName("navigation");
 
