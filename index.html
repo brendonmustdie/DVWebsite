@@ -24,7 +24,7 @@
       rel="stylesheet"
     />
   </head>
-
+  +
   <body>
     <header>
       <img
@@ -34,31 +34,11 @@
         alt="The logo image, or a black paw print"
       />
 
-      <nav id="main-menu">
-        <ul>
-          <li><a href="../DVWebsite/index.html">Home</a></li>
-          <li><a href="../DVWebsite/Pages/data.html">Data Visualization</a></li>
-          <li><a href="../DVWebsite/Blogs/blog.html">Blog posts</a></li>
-          <li>
-            <a href="../DVWebsite/Pages/designpage.html">Design Section </a>
-          </li>
-        </ul>
-      </nav>
+      <nav id="main-menu" class="navigation"></nav>
 
       <input type="checkbox" id="hamburger-input" class="burger-shower" />
       <label id="hamburger-menu" for="hamburger-input">
-        <nav id="sidebar-menu">
-          <ul>
-            <li><a href="../DVWebsite/index.html">Home</a></li>
-            <li>
-              <a href="../DVWebsite/Pages/data.html">Data Visualization</a>
-            </li>
-            <li><a href="../DVWebsite/Blogs/blog.html">Blog posts</a></li>
-            <li>
-              <a href="../DVWebsite/Pages/designpage.html">Design Section </a>
-            </li>
-          </ul>
-        </nav>
+        <nav id="sidebar-menu" class="navigation"></nav>
       </label>
 
       <div class="overlay"></div>
@@ -78,15 +58,39 @@
         shelters are too full and there aren't enough adoptive homes.
       </p>
     </section>
-  </body>
+    <footer>
+      <img
+        class="footer-img"
+        height="200"
+        width="100"
+        src="Paw_Print.svg"
+        alt="The logo image, or a black paw print"
+      />
+    </footer>
+    <script>
+      const navigationData = [
+        { title: "Home", link: "../DVWebsite/index.html" },
+        { title: "Data Visualization", link: "../DVWebsite/Pages/data.html" },
+        { title: "Blog posts", link: "../DVWebsite/Blogs/blog.html" },
+        { title: "Design Section", link: "../DVWebsite/Pages/designpage.html" },
+      ];
 
-  <footer>
-    <img
-      class="footer-img"
-      height="200"
-      width="100"
-      src="Paw_Print.svg"
-      alt="The logo image, or a black paw print"
-    />
-  </footer>
+      const navigations = document.getElementsByClassName("navigation");
+
+      for (var i = 0; i < navigations.length; i++) {
+        let list = document.createElement("ul");
+
+        for (var j = 0; j < navigationData.length; j++) {
+          let listItemLink = document.createElement("a");
+          listItemLink.innerText = navigationData[j].title;
+          listItemLink.setAttribute("href", navigationData[j].link);
+          let listItem = document.createElement("li");
+          listItem.appendChild(listItemLink);
+          list.appendChild(listItem);
+        }
+
+        navigations[i].appendChild(list);
+      }
+    </script>
+  </body>
 </html>
