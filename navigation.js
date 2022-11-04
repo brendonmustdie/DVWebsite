@@ -2,7 +2,7 @@
 
 console.log(window.location.pathname.split("/"))
 
-const linkStart = window.location.pathname.split("/").length > 2 ? "../" : "../DVWebsite/"
+const linkStart = window.location.pathname.split("/").length > 2 ? "../DVWebsite" : "../"
 
 const navigationData = [
   { title: "Home", link: linkStart +"index.html" },
