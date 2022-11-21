@@ -307,3 +307,35 @@ body {
 .change {
   color: #7C6150;
 }
+
+#data-art-1 {
+
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+#data-art-1 div {
+
+  height: 16px;
+  width: 16px;
+  margin: 4px;
+  background-color: #7C6150;
+}
+
+#data-art-2 {
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#data-art-2 img {
+
+  width: 16.6666666666666vw;
+  height: 16.6666666666666vw;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+

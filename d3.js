@@ -51,6 +51,7 @@ async function getData() {
         console.log("Processing " + breeds[i] + " data...");
         let text = await response.text();
         breedData[i] = JSON.parse(text)[0];
+        console.log(breedData);
     }
 
     console.log("Fetched breed data!");
