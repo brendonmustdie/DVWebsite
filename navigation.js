@@ -1,20 +1,20 @@
 // Production nav
-// const navigationData = [
-//  { title: "Home", link: "https://brendonmustdie.github.io/DVWebsite/index.html" },
-//  { title: "Data Visualization", link: "https://brendonmustdie.github.io/DVWebsite/Pages/data.html" },
-//  { title: "Blog posts", link: "https://brendonmustdie.github.io/DVWebsite/Blogs/blog.html" },
-//  { title: "Design Section", link: "https://brendonmustdie.github.io/DVWebsite/Pages/designpage.html" },
-//  { title: "Data Art", link: "https://brendonmustdie.github.io/DVWebsite/Pages/dataart.html" },
-// ];
-
-// Development nav
 const navigationData = [
-  { title: "Home", link: "../index.html" },
-  { title: "Data Visualization", link: "../Pages/data.html" },
-  { title: "Blog posts", link: "../Blogs/blog.html" },
-  { title: "Design Section", link: "../Pages/designpage.html" },
-  { title: "Data Art", link: "../Pages/dataart.html" },
+ { title: "Home", link: "https://brendonmustdie.github.io/DVWebsite/index.html" },
+ { title: "Data Visualization", link: "https://brendonmustdie.github.io/DVWebsite/Pages/data.html" },
+ { title: "Blog posts", link: "https://brendonmustdie.github.io/DVWebsite/Blogs/blog.html" },
+ { title: "Design Section", link: "https://brendonmustdie.github.io/DVWebsite/Pages/designpage.html" },
+ { title: "Data Art", link: "https://brendonmustdie.github.io/DVWebsite/Pages/dataart.html" },
 ];
+
+// // Development nav
+// const navigationData = [
+//   { title: "Home", link: "../index.html" },
+//   { title: "Data Visualization", link: "../Pages/data.html" },
+//   { title: "Blog posts", link: "../Blogs/blog.html" },
+//   { title: "Design Section", link: "../Pages/designpage.html" },
+//   { title: "Data Art", link: "../Pages/dataart.html" },
+// ];
 
 const navigations = document.getElementsByClassName("navigation");
 
