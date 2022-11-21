@@ -1,4 +1,4 @@
-// // Production nav
+// Production nav
 // const navigationData = [
 //  { title: "Home", link: "https://brendonmustdie.github.io/DVWebsite/index.html" },
 //  { title: "Data Visualization", link: "https://brendonmustdie.github.io/DVWebsite/Pages/data.html" },
@@ -6,7 +6,7 @@
 //  { title: "Design Section", link: "https://brendonmustdie.github.io/DVWebsite/Pages/designpage.html" },
 // ];
 
-//Development nav
+// Development nav
 const navigationData = [
   { title: "Home", link: "../index.html" },
   { title: "Data Visualization", link: "../Pages/data.html" },
